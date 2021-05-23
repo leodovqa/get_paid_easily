@@ -43,15 +43,15 @@
                 </div>
                 <div class="tour-row">
                     <span class="tour-item tour-date">Mobrog</span>
-                    <span class="tour-item tour-city"><a type="button" href=".html" class="tour-item">About The Company</a></span>
+                    <span class="tour-item tour-city"><a type="button" href="mobrog_about.html" class="tour-item">About The Company</a></span>
                     <span class="tour-item tour-arena">Paid Online and mobile Surveys.</span>
-                    <button type="button" href="https://www.mobrog.com/" class="tour-item tour-btn btn btn-primary">Get Paid</button>
+                    <button type="button" id="mobrog" class="tour-item tour-btn btn btn-primary">Get Paid</button>
                 </div>
                 <div class="tour-row">
-                    <span class="tour-item tour-date">TEST12</span>
-                    <span class="tour-item tour-city"><a type="button" href=".html" class="tour-item">About The Company</a></span>
+                    <span class="tour-item tour-date">Invitation</span>
+                    <span class="tour-item tour-city"><a type="button" href="invt_about.html" class="tour-item">About The Company</a></span>
                     <span class="tour-item tour-arena">TEST</span>
-                    <button type="button" class="tour-item tour-btn btn btn-primary">Get Paid</button>
+                    <button type="button" id="invt" class="tour-item tour-btn btn btn-primary">Get Paid</button>
                 </div>
                 <div class="tour-row">
                     <span class="tour-item tour-date">TEST12</span>
@@ -104,6 +104,16 @@
 
     document.getElementById('picoworkers').onclick = function() {
         var url = "https://picoworkers.com/?a=37a5d388"
+        window.open(url);
+    }
+    
+    document.getElementById('mobrog').onclick = function() {
+        var url = "https://www.mobrog.com/en/paid-online-surveys/sign-up-england.html?membership_promotion=0&i_invite=13404039-60aaaebac5b1e"
+        window.open(url);
+    }
+
+    document.getElementById('invt').onclick = function() {
+        var url = "https://invt.co/?invite=XOYI4syVs"
         window.open(url);
     }
     
