@@ -26,13 +26,13 @@
                     <span class="tour-item tour-date">Swag Bucks</span>
                     <span class="tour-item tour-city"><a type="button" href=".html" class="tour-item">About The Company</a></span>
                     <span class="tour-item tour-arena">Put cash back in your wallet!</span>
-                    <button type="button" href="https://www.swagbucks.com/" class="tour-item tour-btn btn btn-primary">Get Paid</button>
+                    <button type="button" class="tour-item tour-btn btn btn-primary">Get Paid</button>
                 </div>
                 <div class="tour-row">
                     <span class="tour-item tour-date">TimeBucks</span>
                     <span class="tour-item tour-city"><a type="button" href="timebucks_about.html" class="tour-item">About The Company</a></span>
                     <span class="tour-item tour-arena">Changing the world, one task at a time!</span>
-                    <button type="button" href="https://timebucks.com/" class="tour-item tour-btn btn btn-primary">Get Paid</button>
+                    <button type="button" id="timebucks" class="tour-item tour-btn btn btn-primary">Get Paid</button>
                 </div>
                 <div class="tour-row">
                     <span class="tour-item tour-date">Picoworkers</span>
@@ -90,4 +90,10 @@
         var url = document.getElementById('search_link').href;
         window.open(url);
     }
+
+    document.getElementById('timebucks').onclick = function() {
+        var url = "https://timebucks.com/?refID=219970578";
+        window.open(url);
+    }
+
 </script>
