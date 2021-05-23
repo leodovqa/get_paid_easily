@@ -24,9 +24,9 @@
             <div>
                 <div class="tour-row">
                     <span class="tour-item tour-date">Swag Bucks</span>
-                    <span class="tour-item tour-city"><a type="button" href=".html" class="tour-item">About The Company</a></span>
+                    <span class="tour-item tour-city"><a type="button" href="swagbucks_about.html" class="tour-item">About The Company</a></span>
                     <span class="tour-item tour-arena">Put cash back in your wallet!</span>
-                    <button type="button" class="tour-item tour-btn btn btn-primary">Get Paid</button>
+                    <button type="button" id="swagbucks" class="tour-item tour-btn btn btn-primary">Get Paid</button>
                 </div>
                 <div class="tour-row">
                     <span class="tour-item tour-date">TimeBucks</span>
@@ -96,4 +96,8 @@
         window.open(url);
     }
 
+    document.getElementById('swagbucks').onclick = function() {
+        var url = "https://www.swagbucks.com/lp-savings-button?cmp=695&cxid=swagbuttonref&rb=103387211&extRefCmp=1&extRb=103387211"
+        window.open(url);
+    }
 </script>
