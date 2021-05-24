@@ -100,7 +100,7 @@ html, body {
 .main-footer {
     background-color: #16b17d;
     color: white;
-    padding: .25em 0;
+    padding: .25em 0;    
 }
 
 .main-footer-container {
@@ -110,6 +110,7 @@ html, body {
 
 .main-footer-container ul {
     flex-grow: 1;
+    display: flex;
     text-align: end;
 }
 
